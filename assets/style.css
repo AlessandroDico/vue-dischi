@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+header > i {
+    font-size: 50px;
+    color: #838e06;
+}
+
+h1 {
+    margin-left: 25px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/*----------INIZIO STILE CARDS-------*/
+.cards-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #2a2f6e;
+    border-radius: 5px;
+    font-size: 25px;
+    margin: 15px;
+    width: 200px;
+    height: 400px;
+}
+
+.img-container {
+    height: 150px;
+    width: 150px;
+}
+
+.img-container > img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.cards p {
+    margin: 10px 0;
+    color: #a1a38e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
