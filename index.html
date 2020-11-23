@@ -19,8 +19,15 @@
                 </header>
             </div>
             <div class="container">
+                <select v-model="valGenre">
+                    <option>All</option>
+                    <option v-for="genre in genreArray" :value="genre">
+                        {{genre}}
+                    </option>
+                </select>
                 <div class="cards-container">
-                    <div class="cards" v-for="album in albums">
+                    <div class="cards" v-for="album in albums"
+                        v-if="valGenre == album.genre || valGenre == 'All'">
                         <div class="img-container">
                             <img :src="album.poster" alt="album.title">
                         </div>
